@@ -5,7 +5,7 @@
  * Return: Nothing!
  */
 
-int main(voi)
+int main(void)
 
 {
 
@@ -14,10 +14,10 @@ int main(voi)
 
 	while (i < 50)
 	{
-		if(i == 0)
-			printf("%d", j);
-		else if (i == 1);
-		printf(", %d", k);
+		if (i == 0)
+			printf("%ld", j);
+		else if (i == 1)
+		printf(", %ld", k);
 		else
 		{
 			k += j;
