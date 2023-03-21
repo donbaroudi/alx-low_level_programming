@@ -1,11 +1,11 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - prints the sum of the even-valued terms
  * Return: Nothing!
  */
 
-int main (void)
+int main(void)
 
 {
 
